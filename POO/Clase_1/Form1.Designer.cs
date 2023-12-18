@@ -40,27 +40,27 @@
             this.fINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_Title = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.PLACA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MARCA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MODELO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DESTINO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FECHA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PEAJE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -162,8 +162,8 @@
             // fINToolStripMenuItem
             // 
             this.fINToolStripMenuItem.Name = "fINToolStripMenuItem";
-            this.fINToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fINToolStripMenuItem.Text = "FIN";
+            this.fINToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.fINToolStripMenuItem.Text = "SALIR";
             // 
             // lbl_Title
             // 
@@ -190,14 +190,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS DEL VEHÍCULO";
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "PLACA";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 73);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "MODELO";
             // 
             // label2
             // 
@@ -208,14 +208,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "MARCA";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "MODELO";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PLACA";
             // 
             // groupBox2
             // 
@@ -229,6 +229,14 @@
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "DATOS DE PEAJE";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(66, 63);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 7;
             // 
             // label5
             // 
@@ -261,14 +269,6 @@
             this.comboBox2.Size = new System.Drawing.Size(200, 21);
             this.comboBox2.TabIndex = 1;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(66, 63);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 7;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -286,6 +286,36 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.Size = new System.Drawing.Size(688, 142);
             this.dataGridView1.TabIndex = 7;
+            // 
+            // PLACA
+            // 
+            this.PLACA.HeaderText = "PLACA";
+            this.PLACA.Name = "PLACA";
+            // 
+            // MARCA
+            // 
+            this.MARCA.HeaderText = "MARCA";
+            this.MARCA.Name = "MARCA";
+            // 
+            // MODELO
+            // 
+            this.MODELO.HeaderText = "MODELO";
+            this.MODELO.Name = "MODELO";
+            // 
+            // DESTINO
+            // 
+            this.DESTINO.HeaderText = "DESTINO";
+            this.DESTINO.Name = "DESTINO";
+            // 
+            // FECHA
+            // 
+            this.FECHA.HeaderText = "FECHA";
+            this.FECHA.Name = "FECHA";
+            // 
+            // PEAJE
+            // 
+            this.PEAJE.HeaderText = "PEAJE";
+            this.PEAJE.Name = "PEAJE";
             // 
             // label4
             // 
@@ -340,36 +370,6 @@
             this.label8.Size = new System.Drawing.Size(13, 13);
             this.label8.TabIndex = 15;
             this.label8.Text = "0";
-            // 
-            // PLACA
-            // 
-            this.PLACA.HeaderText = "PLACA";
-            this.PLACA.Name = "PLACA";
-            // 
-            // MARCA
-            // 
-            this.MARCA.HeaderText = "MARCA";
-            this.MARCA.Name = "MARCA";
-            // 
-            // MODELO
-            // 
-            this.MODELO.HeaderText = "MODELO";
-            this.MODELO.Name = "MODELO";
-            // 
-            // DESTINO
-            // 
-            this.DESTINO.HeaderText = "DESTINO";
-            this.DESTINO.Name = "DESTINO";
-            // 
-            // FECHA
-            // 
-            this.FECHA.HeaderText = "FECHA";
-            this.FECHA.Name = "FECHA";
-            // 
-            // PEAJE
-            // 
-            this.PEAJE.HeaderText = "PEAJE";
-            this.PEAJE.Name = "PEAJE";
             // 
             // frmMain
             // 
