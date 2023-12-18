@@ -1,0 +1,7 @@
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\bin\Debug\Clase_1.exe
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\bin\Debug\Clase_1.pdb
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\obj\x86\Debug\Clase_1.frmMain.resources
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\obj\x86\Debug\Clase_1.Properties.Resources.resources
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\obj\x86\Debug\Clase_1.csproj.GenerateResource.Cache
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\obj\x86\Debug\Clase_1.exe
+C:\Users\desarrollador\Desktop\dev\POO\POO\Clase_1\obj\x86\Debug\Clase_1.pdb
