@@ -15,5 +15,12 @@ namespace Clase_1
         {
             InitializeComponent();
         }
+
+        //private void btnSalir_Click(object sender, EventArgs e)
+        //{
+        //    this.Close();
+        //}
+
+        
     }
 }

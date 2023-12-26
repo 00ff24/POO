@@ -28,57 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.gUARDARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.iNFORMACIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tOTALPEAJEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pEAJEPROMEDIOPORMARCAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pLACAMAYORPEAJEPAGADOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fINToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tbx_Placa = new System.Windows.Forms.TextBox();
+            this.cbx_Marca = new System.Windows.Forms.ComboBox();
+            this.nric_Modelo = new System.Windows.Forms.NumericUpDown();
+            this.menuPrincipal = new System.Windows.Forms.MenuStrip();
+            this.btnGuardar = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnInformacion = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTotalPeaje = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnPeajePromedioMarca = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnPlacaMayorPeaje = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSalir = new System.Windows.Forms.ToolStripMenuItem();
             this.lbl_Title = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.gbx_Vehiculo = new System.Windows.Forms.GroupBox();
+            this.lbl_Modelo = new System.Windows.Forms.Label();
+            this.lbl_Marca = new System.Windows.Forms.Label();
+            this.lbl_Placa = new System.Windows.Forms.Label();
+            this.gbx_Peaje = new System.Windows.Forms.GroupBox();
+            this.dtm_Fecha = new System.Windows.Forms.DateTimePicker();
+            this.lbl_Fecha = new System.Windows.Forms.Label();
+            this.lbl_Destino = new System.Windows.Forms.Label();
+            this.cbx_Destino = new System.Windows.Forms.ComboBox();
+            this.dataGridView = new System.Windows.Forms.DataGridView();
             this.PLACA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MARCA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MODELO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DESTINO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FECHA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PEAJE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.lbl_TotalDestino = new System.Windows.Forms.Label();
+            this.lbl_TitleTotalDestino = new System.Windows.Forms.Label();
+            this.lbl_TitleTotalPromedioMarca = new System.Windows.Forms.Label();
+            this.lbl_TitlePlacaMayorPeaje = new System.Windows.Forms.Label();
+            this.lbl_TotalPromedioMarca = new System.Windows.Forms.Label();
+            this.lbl_PlacaMayorPeaje = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.nric_Modelo)).BeginInit();
+            this.menuPrincipal.SuspendLayout();
+            this.gbx_Vehiculo.SuspendLayout();
+            this.gbx_Peaje.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbx_Placa
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
-            this.textBox1.TabIndex = 0;
+            this.tbx_Placa.Location = new System.Drawing.Point(82, 16);
+            this.tbx_Placa.Name = "tbx_Placa";
+            this.tbx_Placa.Size = new System.Drawing.Size(121, 20);
+            this.tbx_Placa.TabIndex = 0;
             // 
-            // comboBox1
+            // cbx_Marca
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbx_Marca.FormattingEnabled = true;
+            this.cbx_Marca.Items.AddRange(new object[] {
             "TOYOTA",
             "NISSAN",
             "IZUZU",
@@ -86,84 +86,85 @@
             "MERCEDEZ",
             "SUZUKI",
             "MITSUBISHI"});
-            this.comboBox1.Location = new System.Drawing.Point(82, 42);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
+            this.cbx_Marca.Location = new System.Drawing.Point(82, 42);
+            this.cbx_Marca.Name = "cbx_Marca";
+            this.cbx_Marca.Size = new System.Drawing.Size(121, 21);
+            this.cbx_Marca.TabIndex = 1;
             // 
-            // numericUpDown1
+            // nric_Modelo
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(83, 69);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
+            this.nric_Modelo.Location = new System.Drawing.Point(83, 69);
+            this.nric_Modelo.Maximum = new decimal(new int[] {
             2024,
             0,
             0,
             0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
+            this.nric_Modelo.Minimum = new decimal(new int[] {
             1980,
             0,
             0,
             0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 2;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.nric_Modelo.Name = "nric_Modelo";
+            this.nric_Modelo.Size = new System.Drawing.Size(120, 20);
+            this.nric_Modelo.TabIndex = 2;
+            this.nric_Modelo.Value = new decimal(new int[] {
             1980,
             0,
             0,
             0});
             // 
-            // menuStrip1
+            // menuPrincipal
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gUARDARToolStripMenuItem,
-            this.iNFORMACIONToolStripMenuItem,
-            this.fINToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(712, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
+            this.menuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnGuardar,
+            this.btnInformacion,
+            this.btnSalir});
+            this.menuPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.menuPrincipal.Name = "menuPrincipal";
+            this.menuPrincipal.Size = new System.Drawing.Size(712, 24);
+            this.menuPrincipal.TabIndex = 0;
+            this.menuPrincipal.Text = "menuStrip1";
             // 
-            // gUARDARToolStripMenuItem
+            // btnGuardar
             // 
-            this.gUARDARToolStripMenuItem.Name = "gUARDARToolStripMenuItem";
-            this.gUARDARToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.gUARDARToolStripMenuItem.Text = "GUARDAR";
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(73, 20);
+            this.btnGuardar.Text = "GUARDAR";
             // 
-            // iNFORMACIONToolStripMenuItem
+            // btnInformacion
             // 
-            this.iNFORMACIONToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tOTALPEAJEToolStripMenuItem,
-            this.pEAJEPROMEDIOPORMARCAToolStripMenuItem,
-            this.pLACAMAYORPEAJEPAGADOToolStripMenuItem});
-            this.iNFORMACIONToolStripMenuItem.Name = "iNFORMACIONToolStripMenuItem";
-            this.iNFORMACIONToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
-            this.iNFORMACIONToolStripMenuItem.Text = "INFORMACION";
+            this.btnInformacion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnTotalPeaje,
+            this.btnPeajePromedioMarca,
+            this.btnPlacaMayorPeaje});
+            this.btnInformacion.Name = "btnInformacion";
+            this.btnInformacion.Size = new System.Drawing.Size(101, 20);
+            this.btnInformacion.Text = "INFORMACION";
             // 
-            // tOTALPEAJEToolStripMenuItem
+            // btnTotalPeaje
             // 
-            this.tOTALPEAJEToolStripMenuItem.Name = "tOTALPEAJEToolStripMenuItem";
-            this.tOTALPEAJEToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            this.tOTALPEAJEToolStripMenuItem.Text = "TOTAL PEAJE";
+            this.btnTotalPeaje.Name = "btnTotalPeaje";
+            this.btnTotalPeaje.Size = new System.Drawing.Size(240, 22);
+            this.btnTotalPeaje.Text = "TOTAL PEAJE";
             // 
-            // pEAJEPROMEDIOPORMARCAToolStripMenuItem
+            // btnPeajePromedioMarca
             // 
-            this.pEAJEPROMEDIOPORMARCAToolStripMenuItem.Name = "pEAJEPROMEDIOPORMARCAToolStripMenuItem";
-            this.pEAJEPROMEDIOPORMARCAToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            this.pEAJEPROMEDIOPORMARCAToolStripMenuItem.Text = "PEAJE PROMEDIO POR MARCA";
+            this.btnPeajePromedioMarca.Name = "btnPeajePromedioMarca";
+            this.btnPeajePromedioMarca.Size = new System.Drawing.Size(240, 22);
+            this.btnPeajePromedioMarca.Text = "PEAJE PROMEDIO POR MARCA";
             // 
-            // pLACAMAYORPEAJEPAGADOToolStripMenuItem
+            // btnPlacaMayorPeaje
             // 
-            this.pLACAMAYORPEAJEPAGADOToolStripMenuItem.Name = "pLACAMAYORPEAJEPAGADOToolStripMenuItem";
-            this.pLACAMAYORPEAJEPAGADOToolStripMenuItem.Size = new System.Drawing.Size(240, 22);
-            this.pLACAMAYORPEAJEPAGADOToolStripMenuItem.Text = "PLACA MAYOR PEAJE PAGADO";
+            this.btnPlacaMayorPeaje.Name = "btnPlacaMayorPeaje";
+            this.btnPlacaMayorPeaje.Size = new System.Drawing.Size(240, 22);
+            this.btnPlacaMayorPeaje.Text = "PLACA MAYOR PEAJE PAGADO";
             // 
-            // fINToolStripMenuItem
+            // btnSalir
             // 
-            this.fINToolStripMenuItem.Name = "fINToolStripMenuItem";
-            this.fINToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.fINToolStripMenuItem.Text = "SALIR";
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(49, 20);
+            this.btnSalir.Text = "SALIR";
+            //This.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // lbl_Title
             // 
@@ -175,117 +176,117 @@
             this.lbl_Title.Text = "CONTROL DE PEAJES";
             this.lbl_Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // groupBox1
+            // gbx_Vehiculo
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(110, 113);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(212, 112);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "DATOS DEL VEHÍCULO";
+            this.gbx_Vehiculo.Controls.Add(this.lbl_Modelo);
+            this.gbx_Vehiculo.Controls.Add(this.lbl_Marca);
+            this.gbx_Vehiculo.Controls.Add(this.nric_Modelo);
+            this.gbx_Vehiculo.Controls.Add(this.lbl_Placa);
+            this.gbx_Vehiculo.Controls.Add(this.cbx_Marca);
+            this.gbx_Vehiculo.Controls.Add(this.tbx_Placa);
+            this.gbx_Vehiculo.Location = new System.Drawing.Point(110, 113);
+            this.gbx_Vehiculo.Name = "gbx_Vehiculo";
+            this.gbx_Vehiculo.Size = new System.Drawing.Size(212, 112);
+            this.gbx_Vehiculo.TabIndex = 5;
+            this.gbx_Vehiculo.TabStop = false;
+            this.gbx_Vehiculo.Text = "DATOS DEL VEHÍCULO";
             // 
-            // label3
+            // lbl_Modelo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "MODELO";
+            this.lbl_Modelo.AutoSize = true;
+            this.lbl_Modelo.Location = new System.Drawing.Point(7, 73);
+            this.lbl_Modelo.Name = "lbl_Modelo";
+            this.lbl_Modelo.Size = new System.Drawing.Size(53, 13);
+            this.lbl_Modelo.TabIndex = 2;
+            this.lbl_Modelo.Text = "MODELO";
             // 
-            // label2
+            // lbl_Marca
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "MARCA";
+            this.lbl_Marca.AutoSize = true;
+            this.lbl_Marca.Location = new System.Drawing.Point(7, 47);
+            this.lbl_Marca.Name = "lbl_Marca";
+            this.lbl_Marca.Size = new System.Drawing.Size(45, 13);
+            this.lbl_Marca.TabIndex = 1;
+            this.lbl_Marca.Text = "MARCA";
             // 
-            // label1
+            // lbl_Placa
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "PLACA";
+            this.lbl_Placa.AutoSize = true;
+            this.lbl_Placa.Location = new System.Drawing.Point(6, 20);
+            this.lbl_Placa.Name = "lbl_Placa";
+            this.lbl_Placa.Size = new System.Drawing.Size(41, 13);
+            this.lbl_Placa.TabIndex = 0;
+            this.lbl_Placa.Text = "PLACA";
             // 
-            // groupBox2
+            // gbx_Peaje
             // 
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.comboBox2);
-            this.groupBox2.Location = new System.Drawing.Point(328, 113);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(270, 112);
-            this.groupBox2.TabIndex = 6;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "DATOS DE PEAJE";
+            this.gbx_Peaje.Controls.Add(this.dtm_Fecha);
+            this.gbx_Peaje.Controls.Add(this.lbl_Fecha);
+            this.gbx_Peaje.Controls.Add(this.lbl_Destino);
+            this.gbx_Peaje.Controls.Add(this.cbx_Destino);
+            this.gbx_Peaje.Location = new System.Drawing.Point(328, 113);
+            this.gbx_Peaje.Name = "gbx_Peaje";
+            this.gbx_Peaje.Size = new System.Drawing.Size(270, 112);
+            this.gbx_Peaje.TabIndex = 6;
+            this.gbx_Peaje.TabStop = false;
+            this.gbx_Peaje.Text = "DATOS DE PEAJE";
             // 
-            // dateTimePicker1
+            // dtm_Fecha
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(66, 63);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 7;
+            this.dtm_Fecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtm_Fecha.Location = new System.Drawing.Point(66, 63);
+            this.dtm_Fecha.Name = "dtm_Fecha";
+            this.dtm_Fecha.Size = new System.Drawing.Size(200, 20);
+            this.dtm_Fecha.TabIndex = 7;
             // 
-            // label5
+            // lbl_Fecha
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 66);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "FECHA";
+            this.lbl_Fecha.AutoSize = true;
+            this.lbl_Fecha.Location = new System.Drawing.Point(6, 66);
+            this.lbl_Fecha.Name = "lbl_Fecha";
+            this.lbl_Fecha.Size = new System.Drawing.Size(42, 13);
+            this.lbl_Fecha.TabIndex = 1;
+            this.lbl_Fecha.Text = "FECHA";
             // 
-            // label6
+            // lbl_Destino
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "DESTINO";
+            this.lbl_Destino.AutoSize = true;
+            this.lbl_Destino.Location = new System.Drawing.Point(6, 23);
+            this.lbl_Destino.Name = "lbl_Destino";
+            this.lbl_Destino.Size = new System.Drawing.Size(55, 13);
+            this.lbl_Destino.TabIndex = 0;
+            this.lbl_Destino.Text = "DESTINO";
             // 
-            // comboBox2
+            // cbx_Destino
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbx_Destino.FormattingEnabled = true;
+            this.cbx_Destino.Items.AddRange(new object[] {
             "CBBA",
             "SUC",
             "BEN",
             "TJA"});
-            this.comboBox2.Location = new System.Drawing.Point(66, 20);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 21);
-            this.comboBox2.TabIndex = 1;
+            this.cbx_Destino.Location = new System.Drawing.Point(66, 20);
+            this.cbx_Destino.Name = "cbx_Destino";
+            this.cbx_Destino.Size = new System.Drawing.Size(200, 21);
+            this.cbx_Destino.TabIndex = 1;
             // 
-            // dataGridView1
+            // dataGridView
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.ColumnHeadersVisible = false;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.ColumnHeadersVisible = false;
+            this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.PLACA,
             this.MARCA,
             this.MODELO,
             this.DESTINO,
             this.FECHA,
             this.PEAJE});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 238);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(688, 142);
-            this.dataGridView1.TabIndex = 7;
+            this.dataGridView.Location = new System.Drawing.Point(12, 238);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.RowHeadersVisible = false;
+            this.dataGridView.Size = new System.Drawing.Size(688, 142);
+            this.dataGridView.TabIndex = 7;
             // 
             // PLACA
             // 
@@ -317,87 +318,87 @@
             this.PEAJE.HeaderText = "PEAJE";
             this.PEAJE.Name = "PEAJE";
             // 
-            // label4
+            // lbl_TotalDestino
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(136, 413);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "0";
+            this.lbl_TotalDestino.AutoSize = true;
+            this.lbl_TotalDestino.Location = new System.Drawing.Point(136, 413);
+            this.lbl_TotalDestino.Name = "lbl_TotalDestino";
+            this.lbl_TotalDestino.Size = new System.Drawing.Size(13, 13);
+            this.lbl_TotalDestino.TabIndex = 8;
+            this.lbl_TotalDestino.Text = "0";
             // 
-            // label9
+            // lbl_TitleTotalDestino
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(107, 396);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 13);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "Total por destino";
+            this.lbl_TitleTotalDestino.AutoSize = true;
+            this.lbl_TitleTotalDestino.Location = new System.Drawing.Point(107, 396);
+            this.lbl_TitleTotalDestino.Name = "lbl_TitleTotalDestino";
+            this.lbl_TitleTotalDestino.Size = new System.Drawing.Size(86, 13);
+            this.lbl_TitleTotalDestino.TabIndex = 11;
+            this.lbl_TitleTotalDestino.Text = "Total por destino";
             // 
-            // label10
+            // lbl_TitleTotalPromedioMarca
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(281, 396);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 13);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Total promedio por marca";
+            this.lbl_TitleTotalPromedioMarca.AutoSize = true;
+            this.lbl_TitleTotalPromedioMarca.Location = new System.Drawing.Point(281, 396);
+            this.lbl_TitleTotalPromedioMarca.Name = "lbl_TitleTotalPromedioMarca";
+            this.lbl_TitleTotalPromedioMarca.Size = new System.Drawing.Size(127, 13);
+            this.lbl_TitleTotalPromedioMarca.TabIndex = 12;
+            this.lbl_TitleTotalPromedioMarca.Text = "Total promedio por marca";
             // 
-            // label11
+            // lbl_TitlePlacaMayorPeaje
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(467, 396);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(94, 13);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Placa mayor peaje";
+            this.lbl_TitlePlacaMayorPeaje.AutoSize = true;
+            this.lbl_TitlePlacaMayorPeaje.Location = new System.Drawing.Point(467, 396);
+            this.lbl_TitlePlacaMayorPeaje.Name = "lbl_TitlePlacaMayorPeaje";
+            this.lbl_TitlePlacaMayorPeaje.Size = new System.Drawing.Size(94, 13);
+            this.lbl_TitlePlacaMayorPeaje.TabIndex = 13;
+            this.lbl_TitlePlacaMayorPeaje.Text = "Placa mayor peaje";
             // 
-            // label7
+            // lbl_TotalPromedioMarca
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(344, 413);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(13, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "0";
+            this.lbl_TotalPromedioMarca.AutoSize = true;
+            this.lbl_TotalPromedioMarca.Location = new System.Drawing.Point(344, 413);
+            this.lbl_TotalPromedioMarca.Name = "lbl_TotalPromedioMarca";
+            this.lbl_TotalPromedioMarca.Size = new System.Drawing.Size(13, 13);
+            this.lbl_TotalPromedioMarca.TabIndex = 14;
+            this.lbl_TotalPromedioMarca.Text = "0";
             // 
-            // label8
+            // lbl_PlacaMayorPeaje
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(504, 413);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "0";
+            this.lbl_PlacaMayorPeaje.AutoSize = true;
+            this.lbl_PlacaMayorPeaje.Location = new System.Drawing.Point(504, 413);
+            this.lbl_PlacaMayorPeaje.Name = "lbl_PlacaMayorPeaje";
+            this.lbl_PlacaMayorPeaje.Size = new System.Drawing.Size(13, 13);
+            this.lbl_PlacaMayorPeaje.TabIndex = 15;
+            this.lbl_PlacaMayorPeaje.Text = "0";
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(712, 449);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.lbl_PlacaMayorPeaje);
+            this.Controls.Add(this.lbl_TotalPromedioMarca);
+            this.Controls.Add(this.lbl_TitlePlacaMayorPeaje);
+            this.Controls.Add(this.lbl_TitleTotalPromedioMarca);
+            this.Controls.Add(this.lbl_TitleTotalDestino);
+            this.Controls.Add(this.lbl_TotalDestino);
+            this.Controls.Add(this.dataGridView);
+            this.Controls.Add(this.gbx_Peaje);
+            this.Controls.Add(this.gbx_Vehiculo);
             this.Controls.Add(this.lbl_Title);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.menuPrincipal);
+            this.MainMenuStrip = this.menuPrincipal;
             this.Name = "frmMain";
             this.Text = "CRUD";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nric_Modelo)).EndInit();
+            this.menuPrincipal.ResumeLayout(false);
+            this.menuPrincipal.PerformLayout();
+            this.gbx_Vehiculo.ResumeLayout(false);
+            this.gbx_Vehiculo.PerformLayout();
+            this.gbx_Peaje.ResumeLayout(false);
+            this.gbx_Peaje.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -405,33 +406,33 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem gUARDARToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem iNFORMACIONToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tOTALPEAJEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pEAJEPROMEDIOPORMARCAToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pLACAMAYORPEAJEPAGADOToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fINToolStripMenuItem;
+        private System.Windows.Forms.TextBox tbx_Placa;
+        private System.Windows.Forms.ComboBox cbx_Marca;
+        private System.Windows.Forms.NumericUpDown nric_Modelo;
+        private System.Windows.Forms.MenuStrip menuPrincipal;
+        private System.Windows.Forms.ToolStripMenuItem btnGuardar;
+        private System.Windows.Forms.ToolStripMenuItem btnInformacion;
+        private System.Windows.Forms.ToolStripMenuItem btnTotalPeaje;
+        private System.Windows.Forms.ToolStripMenuItem btnPeajePromedioMarca;
+        private System.Windows.Forms.ToolStripMenuItem btnPlacaMayorPeaje;
+        private System.Windows.Forms.ToolStripMenuItem btnSalir;
         private System.Windows.Forms.Label lbl_Title;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.GroupBox gbx_Vehiculo;
+        private System.Windows.Forms.Label lbl_Modelo;
+        private System.Windows.Forms.Label lbl_Marca;
+        private System.Windows.Forms.Label lbl_Placa;
+        private System.Windows.Forms.GroupBox gbx_Peaje;
+        private System.Windows.Forms.DateTimePicker dtm_Fecha;
+        private System.Windows.Forms.Label lbl_Fecha;
+        private System.Windows.Forms.Label lbl_Destino;
+        private System.Windows.Forms.ComboBox cbx_Destino;
+        private System.Windows.Forms.DataGridView dataGridView;
+        private System.Windows.Forms.Label lbl_TotalDestino;
+        private System.Windows.Forms.Label lbl_TitleTotalDestino;
+        private System.Windows.Forms.Label lbl_TitleTotalPromedioMarca;
+        private System.Windows.Forms.Label lbl_TitlePlacaMayorPeaje;
+        private System.Windows.Forms.Label lbl_TotalPromedioMarca;
+        private System.Windows.Forms.Label lbl_PlacaMayorPeaje;
         private System.Windows.Forms.DataGridViewTextBoxColumn PLACA;
         private System.Windows.Forms.DataGridViewTextBoxColumn MARCA;
         private System.Windows.Forms.DataGridViewTextBoxColumn MODELO;
